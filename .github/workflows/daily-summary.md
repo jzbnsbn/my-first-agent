@@ -1,5 +1,9 @@
 ---
 on: daily
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
 tools:
   github: pull_requests
 safe-outputs:
